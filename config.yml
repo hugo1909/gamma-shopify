@@ -1,0 +1,12 @@
+development:
+  password: password_123
+  theme_id: 123
+  store: abc.myshopify.com
+
+staging:
+  password: password
+  theme_id: 123
+  store: abc.myshopify.com
+  ignore_files:
+    - config/settings_data.json
+    - templates/*.json

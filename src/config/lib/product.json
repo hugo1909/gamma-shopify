@@ -1,0 +1,20 @@
+{
+  "name": "Products",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "product_afterpay_enable",
+      "label": "Enable Product Afterpay",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "product_per_page",
+      "label": "Per page",
+      "min": 2,
+      "max": 32,
+      "step": 2,
+      "default": 12
+    }
+  ]
+}
